@@ -1,0 +1,38 @@
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* половина высоты окна браузера */
+}
+
+.center-image img {
+  max-width: 100%;
+  /* чтобы изображение не выходило за пределы экрана */
+}
+
+#my-button {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  transition: 0.7s ease;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* 
+.button-static,
+.button-wrapper {
+  margin: 0 10px;
+  /* Расстояние между кнопками, можно изменить */
+
+.centered {
+  text-align: center;
+  margin-top: 50px;
+}

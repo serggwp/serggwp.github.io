@@ -26,11 +26,11 @@
   margin-top: 20px;
 }
 
-/* 
+
 .button-static,
 .button-wrapper {
-  margin: 0 10px;
-  /* Расстояние между кнопками, можно изменить */
+  margin-top: 5%;
+  /* Расстояние между кнопками, можно изменить
 
 .centered {
   text-align: center;
